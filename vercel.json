@@ -4,10 +4,10 @@
       "api/index.php": { "runtime": "vercel-php@0.5.3" }
     },
     "routes": [
-      {
-        "src": "/build/(.*)",
-        "dest": "/public/build/"
-      },
+        {
+            "src": "/build/",
+            "dest": "/"
+          },
       {
         "src": "/(.*)",
         "dest": "/api/index.php"
