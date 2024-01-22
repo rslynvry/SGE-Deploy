@@ -12,6 +12,5 @@ export default defineConfig({
     ],
     build: {
         manifest: true,
-        outDir: 'public/build', // Change this to 'public/build'
     },
 });
