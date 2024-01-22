@@ -168,7 +168,7 @@
                                 <div class="low-wrapper" v-if="candidate.rank > 3">
                                     <div class="low-information">
                                         <span class="rank">{{ getOrdinalSuffix(candidate.rank) }}</span>
-                                        <img src="default.png" alt="" class="low-img">
+                                        <img src="" alt="" class="low-img">
                                         <div class="candidate-information">
                                             <span class="candidate-name">{{ candidate.full_name }}</span>
                                             <span>{{ candidate.partylist_name }}</span>

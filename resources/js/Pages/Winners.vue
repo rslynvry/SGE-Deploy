@@ -6,7 +6,7 @@
         <h1 class="current-page">
             <span class="header" @click.prevent="returnElections">ONGOING ELECTIONS</span> 
             <span class="arrow"> > </span>
-            <span class="header" @click.prevent="returnCurrentElection" v-if="!isElectionsLoading && isElectionsSuccess">{{ electionsData.election.ElectionName }}</span> 
+            <span class="header" @click.prevent="returnCurrentElection">Selected Election</span> 
             <span class="arrow"> > </span>
             Results
         </h1>
