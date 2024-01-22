@@ -9,6 +9,10 @@
         "dest": "/public/build/"
       },
       {
+        "src": "/build/(.*)",
+        "dest": "/"
+      },
+      {
         "src": "/(.*)",
         "dest": "/api/index.php"
       }
