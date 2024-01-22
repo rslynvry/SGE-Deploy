@@ -56,7 +56,7 @@
     import Navbar from '../Shared/Navbar.vue'
     import Carousel from '../Shared/Carousel.vue'
     import ImageSkeleton from '../Skeletons/ImageSkeleton.vue'
-    import ToolTip from '../Shared/ToolTip.vue'
+    import ToolTip from '../Shared/Tooltip.vue'
     import Appeal from '../Shared/Appeal.vue'
 
     import { ref, watchEffect } from 'vue'
