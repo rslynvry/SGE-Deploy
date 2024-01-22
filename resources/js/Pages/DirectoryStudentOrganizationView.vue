@@ -13,7 +13,7 @@
 
         <template v-if="!isOrganizationLoading">
             <div class="organization-header">
-                <img src="ssc.png" alt="" class="organization-logo">
+                <img src="" alt="" class="organization-logo">
                 <h1 class="organization-name mt-2">{{ organizationData.OrganizationName }}</h1>
                 <div style="margin-left: auto;">
                     <span class="requirements"><strong>Course Requirements</strong>: {{ organizationData.OrganizationMemberRequirements }}</span>
