@@ -383,7 +383,6 @@
         left: 10px;
         top: 50%;
         transform: translateY(-50%);
-        background: url('search.svg') no-repeat center;
         background-size: contain;
         width: 20px;
         height: 20px;
